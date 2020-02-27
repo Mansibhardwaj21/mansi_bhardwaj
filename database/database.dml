@@ -1,0 +1,24 @@
+-- change this to your team id
+use MLP204;
+
+-- The CEO
+INSERT INTO EMPLOYEE VALUES(1000);
+
+-- Two Managers
+INSERT INTO EMPLOYEE VALUES(2000);
+INSERT INTO EMPLOYEE VALUES(2001);
+
+-- Two Employees
+INSERT INTO EMPLOYEE VALUES(3000);
+INSERT INTO EMPLOYEE VALUES(3001);
+insert into employee values('stuti','gunjan',1000,'stuti@gmail.com',1236547896,'tvh padur','developer','B+','10','1994-03-11','coder',001);
+insert into employee values('gowtham','krishnal',1001,'gowtham@gmail.com',1236527896,' sholingnalur','developer','A+','10','1996-02-01','coder',001);
+insert into employee values('mansi','bhardwaj',1002,'mansi@gmail.com',1234567893,' sholingnalur','tester','o+','10','1992-11-01','testing',002);
+insert into employee values('harshitha','kadipaka',1005,'harshitha@gmail.com',1236527825,' tvh padur','tester','B+','10','1996-01-01','testing',002);
+insert into employee values('amir','darshan',1004,'amirdharshan@gmail.com',1236527895,' sholingnalur','developer','B+','10','1998-07-01','coder',001);
+
+insert into leaves (emp_id,Leave_starting_date,Leave_ending_date,leave_left,leave_type,total_leaves) values ('1000','2020-02-20','2020-02-25','20','sick leave','20');
+insert into leaves (emp_id,Leave_starting_date,Leave_ending_date,leave_left,leave_type,total_leaves) values ('1001','2020-01-20','2020-01-25','20','casual leave','20');
+insert into leaves (emp_id,Leave_starting_date,Leave_ending_date,leave_left,leave_type,total_leaves) values ('1002','2020-10-20','2020-10-22','20','earned leave','20');
+insert into leaves (emp_id,Leave_starting_date,Leave_ending_date,leave_left,leave_type,total_leaves) values ('1004','2020-02-10','2020-02-15','20','casual leave','20');
+insert into leaves (emp_id,Leave_starting_date,Leave_ending_date,leave_left,leave_type,total_leaves) values ('1005','2020-12-02','2020-12-05','20','earned leave','20');
